@@ -1,0 +1,12 @@
+@font-face{
+    font-family: satoshi;
+    src: url(../public/fonts/Satoshi-Black.otf)
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+    --font-satoshi:satoshi, "san-serif"
+}
+
